@@ -1,0 +1,31 @@
+:root {
+  --para-font-clr: #rgba(0, 0, 0, 0.5);
+  --primary-color: #e95a08;
+  --dark-color: #000000;
+  --dark-light: #111111;
+}
+
+.primary-color {
+  color: #e95a08;
+}
+
+.dark-color {
+  color: #000000;
+}
+
+.dark-light-color {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-custom {
+  background-color: #f5f8ff;
+}
+
+.nav-item li:nth-child(n) {
+  color: #8987a1;
+}
+
+.nav-item li:nth-child(1) {
+  color: #252432;
+  font-weight: bold;
+}
