@@ -1,8 +1,5 @@
 :root {
-  --para-font-clr: #rgba(0, 0, 0, 0.5);
   --primary-color: #e95a08;
-  --dark-color: #000000;
-  --dark-light: #111111;
 }
 
 .primary-color {
@@ -21,6 +18,12 @@
   background-color: #f5f8ff;
 }
 
+button {
+  cursor: pointer;
+}
+
+/* nav item */
+
 .nav-item li:nth-child(n) {
   color: #8987a1;
 }
@@ -28,6 +31,10 @@
 .nav-item li:nth-child(1) {
   color: #252432;
   font-weight: bold;
+}
+
+.nav-item li:nth-child(n):hover {
+  color: var(--primary-color);
 }
 
 /* latest deal section */
@@ -53,4 +60,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* footer column 2 and 3 */
+.foot-two li a:hover,
+.foot-three li a:hover,
+.shop:hover {
+  color: var(--primary-color);
 }
