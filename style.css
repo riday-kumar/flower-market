@@ -39,3 +39,18 @@
 .join-us-bg {
   background-color: rgba(7, 51, 79, 0.4);
 }
+
+/* image spining */
+.img-spin {
+  animation: spining 6s linear 0s infinite;
+}
+
+@keyframes spining {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
