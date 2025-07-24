@@ -29,3 +29,8 @@
   color: #252432;
   font-weight: bold;
 }
+
+/* latest deal section */
+.left-one-bg {
+  background-color: rgba(0, 0, 0, 0.4);
+}
